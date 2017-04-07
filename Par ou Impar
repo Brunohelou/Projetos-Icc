@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int x,a;
+printf("\tDigite seu numero.\n\n");
+scanf("%d", &x);
+    a=x%2;
+ if(a==0)
+ printf("\tNumero Par\n\n");
+ else
+    printf("Numero Impar");
+    return 0;
+}
